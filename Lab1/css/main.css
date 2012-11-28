@@ -30,7 +30,6 @@ font-weight: normal;
 font-family: arial. sans-serif;
 font-style: bolder;
 text-transform: lowercase;
-
 }
 
 p {
@@ -52,17 +51,36 @@ font-family: times, arial;
 ol li {
 font-size: large;
 line-height: 1.2;
-
 }
 
-.footer {
-font-size: small;
-font-weight: normal
-text-align: center;
+#footer {
+text-align: small;
+font-weight: normal;
+font-variant: small-caps;
+font-size: 13px;
+font-family: arial,verdana;
 }
 
 .intro {
 color: #E0427F;
+}
+
+a:link {
+color: #BCD2EE;
+}
+
+a:visited {
+color: #CDB5CD;
+}
+
+
+a:hover {
+color: #CD6090;
+text-decoration: line-through;
+}
+
+a:active {
+color: #CD96CD;
 }
 
 * {
