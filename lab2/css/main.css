@@ -1,0 +1,103 @@
+body{
+background-color: #2B3E42;
+width: 960px;
+font: 16px/1.5 Arial,sans-serif;
+margin: 25px 50px;
+padding: 25px 50px;
+}
+
+div{
+width: 400px;
+vertical-align: -10px;
+}
+
+img{
+vertical-align: text-top;
+}
+
+p{
+text-align: justify;
+font-size: 16px;
+line-height: 1.2;
+}
+
+h1{
+color: #EEC015;
+text-shadow: 2px 2px 5px #F7F3E8;
+text-align: left;
+line-height: 1.2em;
+font-family: Arial,sans-serif;
+padding: 0px;
+margin: 0px;
+border-bottom: 1px solid #ccc; 
+border-top: 1px solid #ccc; 
+}
+
+h2{
+color: #F2583E;
+word-spacing: 1em;
+}
+
+h3{
+color: #FFFFFF;
+font-variant: normal;
+font-weight: lighter;
+}
+
+#Nav{
+/*----float: left;--- cant get to float correctly*/
+width: 100%;
+margin: 0 0 3em 0;
+padding: 0;
+list-style: none;
+}
+
+#Nav li{
+float: left;
+}
+
+a:link{
+color: #E6E7E8;
+}
+
+a:visited{
+color: #FFFFFF;
+}
+
+a:hover{
+color: #6C7A7D;
+}
+
+a:active{
+color: #CD96CD;
+}
+
+/*----a{
+display: block;
+width: 60px;
+}---*/
+
+p.small{
+font-variant: small-caps;
+letter-spacing: 1em;
+text-align: center;
+}
+
+p.intro{
+text-indent: 2em;
+}
+
+ol{
+background-color: rgba(192,192,192,0.2);
+width: 200px;
+list-style-type: square;
+
+}
+
+strong{
+color: #F7F3E8;
+text-transform: uppercase;
+font-style: italic;
+text-decoration: underline;
+opacity: 0.15;
+}
