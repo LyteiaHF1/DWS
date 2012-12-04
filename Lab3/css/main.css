@@ -30,10 +30,10 @@ background-position: top left;
 /*background-repeat: repeat-x;*/
 }
 
-#logo h1{
-/*padding: 0;*/
+/*#logo h1{
+padding: 0;
 margin: 0;
-}
+}*/
 
 #nav ul{
 width: 400px;
@@ -48,18 +48,18 @@ width: 100px;
 }
 
 #nav a{
-color: #E6E7E8;
+color: #000;
 height: 30px;
 line-height: 30px;
 text-align: center;
-background-color: #000;
+background-color: #E6E7E8;
 display: block;
 text-decoration: none;
 }
 
 #nav a:hover{
 color: #6C7A7D;
-background-color: #E6E7E8;
+background-color: #FFEFDB; 
 }
 
 li{
@@ -71,7 +71,7 @@ float: left;
 width: 560px;
 padding: 20px 0;
 margin: 0 0 0 30px;
-display: inline;
+/*display: inline;*/
 }
 
 #secondary{
@@ -79,7 +79,7 @@ float: right;
 width: 300px;
 padding: 20px 0;
 margin: 0 20px 0 0;
-display: inline;
+/*display: inline;*/
 }
 
 p{
@@ -113,8 +113,8 @@ width: 360px;
 clear: left;
 float: right;
 width: 360px;
-margin 0;
-padding 0;
+margin: 0;
+padding: 0;
 }
 
 .types li{
