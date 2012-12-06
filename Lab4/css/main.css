@@ -1,0 +1,244 @@
+/* "auto" makes the left and right margins center the wrapper */
+
+#wrap{ 
+background: url("../images/contentbg.png")repeat fixed left top; 
+width: 960px;
+margin: 20px auto;
+overflow:hidden;
+}
+
+/** CSS3 Gradients-----**/
+
+body{
+font: 16px/1.5 Arial,sans-serif;
+background:#999999;
+background: -moz- gradient(linear #999999 0%,#ffffff 100%);
+background: -webkit- gradient(linear,left top,right top,0%,#999999);/*(100%,#fff);*/
+background: linear-gradient(#999999 0%,#ffffff 100%);
+background-attachment: fixed;
+margin: 0;
+padding: 0;
+}
+
+/** header-----**/
+
+.header{
+background: url("../images/header_image.jpg");
+vertical-align: text-top;
+background-position: top left;
+padding: 20px;
+}
+
+.header h1{
+color: white;
+}
+
+/** NAV-----**/
+
+#nav ul{
+margin: 0;
+padding: 0;
+/*clear: both;*/
+}
+
+#nav li{
+overflow: hidden;
+text-indent: -9999px;
+display: block;
+float: left;
+margin-right: 10px;
+}
+
+#nav a{
+background: url("../images/Nav.jpg") no-repeat; width: 800px; height: 218px; display: block;
+text-decoration: none;
+}
+
+/* Products button */
+#products{
+width:275px;
+height:60px;
+}
+
+#products a{
+background-position: -0 -0; 
+}
+
+#products a:hover{
+background-position: -0px -71px;
+}
+
+/* Shop Button */
+#shop{
+width:275px; 
+height:60px;
+}
+
+#shop a{
+background-position: -270px -1px;
+}
+
+#shop a:hover{
+background-position: -272px -75px ;
+}
+
+/* Support Button */
+#support{
+width:275px; 
+height:60px;
+}
+
+#support a{
+background-position: -547px -0px;
+}
+
+#support a:hover{
+background-position: -541px -76px ;
+}
+			
+ul{
+list-style-type: none;
+}
+
+/** General Styling **/
+
+h1, h2{ 
+font-family: 'Orbitron', sans-serif;
+color: #6FC3DF;
+}
+ 
+p{
+color: #E6FFFF;
+margin: 10px;
+padding: 10px;
+}
+
+/** CTA  **/
+
+.cta{
+padding: 10px;
+margin: 0px;
+border-radius: 10px;
+}
+
+#cta img{
+vertical-align: text-top;
+float: left; 
+}
+
+#cta h1{
+clear: left;
+float: left;
+} 
+
+#cta p{
+clear: both;
+}
+
+#cta div{
+width:  750px;
+height: 368px;
+display: block;
+}
+
+/** Button **/
+
+.button{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #df760c;
+padding: 8px 16px;
+background: -moz-linear-gradient(top,#6fc3df 0%,#e6ffff);
+background: -webkit-gradient(linear, left top, left bottom,from(#6fc3df),to(#e6ffff));
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+border: 3px solid #000000;
+-moz-box-shadow:0px 1px 3px rgba(230,255,255,0.5),inset 0px 0px 3px rgba(255,255,255,1);
+-webkit-box-shadow:0px 1px 3px rgba(230,255,255,0.5),inset 0px 0px 3px rgba(255,255,255,1);
+box-shadow:0px 1px 3px rgba(230,255,255,0.5),inset 0px 0px 3px rgba(255,255,255,1);
+text-shadow:0px -1px 0px rgba(012,020,031,0.1),0px 1px 0px rgba(255,255,255,1);
+}
+
+/** Gallery **/
+
+.gallery ul{
+padding-left: 20px;
+}
+
+.gallery li{
+float: left;
+display: block;
+width: 400px;
+/*margin: 0 40px 0 0;*/
+}
+
+.gallery li img{
+display: block;
+width: 160px;
+}
+
+/** Secondary Content **/
+
+.secondary{
+width: 500px;
+float: left;
+}
+
+.basic{
+width: 400px;
+float: left;
+}
+
+.basic h2{
+clear: left;
+float: left;
+clear: both;
+margin: 0;
+padding: 0.5em;
+}
+
+.basic ul{
+/*width: 200px;*/
+overflow: hidden;
+clear: both;
+float: left;
+list-style-type: circle;
+}
+
+.basic li{
+color: #E6FFFF;
+display: block;
+float: left;
+margin:  2px;
+vertical-align: middle;
+}
+
+dl{
+padding: 0.5em;
+color: #DF740C;
+}
+
+dt{
+float: left;
+clear: left;
+margin: 5px;
+text-align: right;
+font-weight: bold;
+}
+
+dd{
+clear: left;
+margin: 0 0 0 110px;
+padding: 0 0 0.5em 0;
+text-align: left;
+}
+
+#footer{
+clear: both;
+background: #0C141F;
+padding: 2px;
+}
+
+
+
